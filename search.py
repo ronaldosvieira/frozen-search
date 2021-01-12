@@ -70,7 +70,7 @@ def tinyMazeSearch(problem):
     from game import Directions
     s = Directions.SOUTH
     w = Directions.WEST
-    return  [s, s, w, s, w, w, s, w]
+    return [s, s, w, s, w, w, s, w]
 
 def depthFirstSearch(problem):
     """
@@ -105,6 +105,12 @@ def nullHeuristic(state, problem=None):
     goal in the provided SearchProblem.  This heuristic is trivial.
     """
     return 0
+
+def greedySearch(problem, heuristic=nullHeuristic):
+    """Search the node that has the lowest heuristic first."""
+    "*** YOUR CODE HERE ***"
+    util.raiseNotDefined()
+
 
 def aStarSearch(problem, heuristic=nullHeuristic):
     """Search the node that has the lowest combined cost and heuristic first."""
@@ -147,5 +153,6 @@ def foodHeuristic(state, problem):
 # Abbreviations
 bfs = breadthFirstSearch
 dfs = depthFirstSearch
-astar = aStarSearch
 ucs = uniformCostSearch
+gs = greedySearch
+astar = aStarSearch

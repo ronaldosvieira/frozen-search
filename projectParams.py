@@ -15,4 +15,4 @@
 STUDENT_CODE_DEFAULT = 'searchAgents.py,search.py'
 PROJECT_TEST_CLASSES = 'searchTestClasses.py'
 PROJECT_NAME = 'TP1: Busca em espaço de estados'
-BONUS_PIC = False
+BONUS_PIC = True

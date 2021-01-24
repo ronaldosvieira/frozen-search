@@ -22,7 +22,7 @@ pseudocode in lecture.
 
 graph: """
 start_state: A
-goal_states: G, G2
+goal_states: G G2
 A 0:A->B B 1.0
 A 1:A->G2 G2 1.0
 B 0:B->G G 1.0
